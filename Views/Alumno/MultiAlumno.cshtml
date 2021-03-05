@@ -1,12 +1,12 @@
-﻿@model List<Asignatura>;
+﻿@model List<Alumno>;
 @{
-    ViewData["Title"] = "Información Asignaturas";
+    ViewData["Title"] = "Información Alumno";
     Layout = "Simple";
 }
 <!--Esta vista espera recibir una Lista de asignaturas-->
 <h1>VISTA MULTIASIGNATURA DE CONTROLLER ASIGNATURA</h1>
-@foreach (var asignatura in Model)
+@foreach (var alumno in Model)
 {
-<partial name = "ObjetoEscuelaSimple" model = "asignatura"/>
+<partial name = "ObjetoEscuelaSimple" model = "alumno"/>
 }
 <strong>Desde la vista PARCIAL</strong>

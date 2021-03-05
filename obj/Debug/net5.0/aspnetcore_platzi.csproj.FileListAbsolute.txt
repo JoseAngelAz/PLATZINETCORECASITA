@@ -41,5 +41,7 @@ T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\aspnetcore_plat
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Escuela\Index.cshtml.g.cs
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Shared\Simple.cshtml.g.cs
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Asignatura\Index.cshtml.g.cs
-T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Shared\AsignaturaSimple.cshtml.g.cs
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Asignatura\MultiAsignatura.cshtml.g.cs
+T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Shared\ObjetoEscuelaSimple.cshtml.g.cs
+T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Alumno\Index.cshtml.g.cs
+T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Alumno\MultiAlumno.cshtml.g.cs
