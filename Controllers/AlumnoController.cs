@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using aspnetcore_platzi.Models;
 namespace aspnetcore_platzi.Controllers
 {
-    public class AlumnoController : Controller
+    public class AlumnoController : Controller  
     {
         public IActionResult Index(){
             return View(
+                //mandamos un objeto de alumno
                 new Alumno{
-                Nombre = "Programacion Orientada a Objetos",
+                Nombre = "ANGEL AZUCENA",
                 UniqueId = Guid.NewGuid().ToString(),
-                Descripción = "Enseña el paradigma de POO"
+                Descripción = "Programador en stack MERN"
             }
             );
             
@@ -36,8 +37,12 @@ namespace aspnetcore_platzi.Controllers
             }
             };
             ViewBag.FAcatual = DateTime.Now;
+            ViewBag.Materia = "Materias";
+            ViewBag.Horario = "Horario";
             //          Vista       , metodo
-            return View("Index",listaAlumno);
+            //en caso de  pasarlo sin forma default
+            return View("MultiAlumno",listaAlumno);
+
         }
     }
 }

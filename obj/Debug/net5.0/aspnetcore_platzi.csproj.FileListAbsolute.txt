@@ -45,3 +45,4 @@ T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Asi
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Shared\ObjetoEscuelaSimple.cshtml.g.cs
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Alumno\Index.cshtml.g.cs
 T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Alumno\MultiAlumno.cshtml.g.cs
+T:\ANGEL\Vscode  C# proyectos\aspnetcore_platzi\obj\Debug\net5.0\Razor\Views\Shared\ObjetoAlumnoSimple.cshtml.g.cs

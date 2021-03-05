@@ -1,13 +1,6 @@
-﻿@model Alumno;
-@{
-    ViewData["Title"] = "Información Alumno";
-    Layout = "Simple";
-}
-
-<h1>VISTA INDEX DE CONTROLLER ASIGNATURA</h1>
-<strong>Desde la vista normal</strong>
+@model Alumno
 <div class="card" style="width: 18rem;">
-<img class="img-fluid" src="" class="card-img-top" alt="imagen">
+<img class="img-fluid" src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w" class="card-img-top" alt="imagen">
 <div class="card-body">
     <h5 class="card-title">@Model.Nombre</h5>
     <p class="card-text">
@@ -25,6 +18,3 @@
     <a href="#" class="card-link">@ViewBag.Horario</a>
 </div>
 </div>
-
-<strong>Desde la vista PARCIAL</strong>
-<partial name = "ObjetoAlumnoSimple"/>
