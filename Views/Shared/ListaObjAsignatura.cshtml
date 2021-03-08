@@ -1,28 +1,27 @@
-﻿@model Asignatura;
-@{
-    ViewData["Title"] = "Información Asignaturas";
-    Layout = "Simple";
-}
-
-
+@*
+@model Asignatura
+*@
 <table class="table bg-info">
     <thead>
         <tr>
             <th scope="col">#ID</th>
-            <th scope="col">Asignatura</th>
+            <th scope="col">Name</th>
             <th scope="col">Description</th>
             <th scope="col">Photo</th>
         </tr>
     </thead>
     <tbody>
+        @foreach (var obj in Model)
+        {
         <tr>
-            <th scope="row">@Model.UniqueId</th>
-            <td>@Model.Nombre</td>
-            <td>@Model.Descripción</td>
+            <th scope="row">@obj.UniqueId</th>
+            <td>@obj.Nombre</td>
+            <td>@obj.Descripción</td>
             <td>
                 <img class="img-thumbnail" style="width:4rem"
         src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w"alt="imagen">
         </td>
-        </tr>        
+        </tr>
+        }
     </tbody>
 </table>

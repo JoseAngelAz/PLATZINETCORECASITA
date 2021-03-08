@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using aspnetcore_platzi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace aspnetcore_platzi
 {
@@ -24,6 +26,12 @@ namespace aspnetcore_platzi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            /*Agregamos el contexto de base de datos, peor es generico
+            pasamos el namespace del contexto y una config para el db engine
+            */
+            services.AddDbContext<EscuelaContext>(
+            options => options.UseInMemoriDatabase(databaseName:"TestDB")
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5,26 +5,26 @@
 }
 
 <h1>VISTA INDEX DE CONTROLLER ASIGNATURA</h1>
-<strong>Desde la vista normal</strong>
-<div class="card" style="width: 18rem;">
-<img class="img-fluid" src="" class="card-img-top" alt="imagen">
-<div class="card-body">
-    <h5 class="card-title">@Model.Nombre</h5>
-    <p class="card-text">
-        <h5 class="fw-bold">Id Alumno</h5>
-        @Model.UniqueId
-    </p>
-</div>
-<ul class="list-group list-group-flush">
-    <li class="list-group-item fw-bold">@Model.Descripción</li>
-    <li class="list-group-item">Fecha Actual</li>
-    <li class="list-group-item">@ViewBag.FAcatual</li>
-</ul>
-<div class="card-body">
-    <a href="#" class="card-link">@ViewBag.Materia</a>
-    <a href="#" class="card-link">@ViewBag.Horario</a>
-</div>
-</div>
-
-<strong>Desde la vista PARCIAL</strong>
-<partial name = "ObjetoAlumnoSimple"/>
+<table class="table bg-info">
+    <thead>
+        <tr>
+            <th scope="col">#ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Photo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@Model.UniqueId</th>
+            <td>@Model.Nombre</td>
+            <td>@Model.Apellidos</td>
+            <td>@Model.Descripción</td>
+            <td>
+                <img class="img-thumbnail" style="width:4rem"
+        src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w"alt="imagen">
+        </td>
+        </tr>        
+    </tbody>
+</table>

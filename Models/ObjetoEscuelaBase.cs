@@ -1,3 +1,4 @@
+using System;
 namespace aspnetcore_platzi.Models
 {
     public abstract class ObjetoEscuelaBase
@@ -8,7 +9,7 @@ namespace aspnetcore_platzi.Models
         public string Descripción { get; set; }
         public ObjetoEscuelaBase()
         {
-            //UniqueId = Guid.NewGuid().ToString();
+            UniqueId = Guid.NewGuid().ToString();
         }
 
         public override string ToString()
