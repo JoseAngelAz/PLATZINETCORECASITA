@@ -29,8 +29,8 @@ namespace aspnetcore_platzi
             /*Agregamos el contexto de base de datos, peor es generico
             pasamos el namespace del contexto y una config para el db engine
             */
-            services.AddDbContext<EscuelaContext>(
-            options => options.UseInMemoriDatabase(databaseName:"TestDB")
+            services. AddDbContext<EscuelaContext>(
+            options => options.UseInMemoryDatabase(databaseName:"TestDB")
             );
         }
 
